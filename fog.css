@@ -1,0 +1,785 @@
+* {
+font-weight: normal !important;
+}
+
+ul#userinfo_stats {
+position: absolute;
+top: 0px;
+left: 50%;
+margin-left: -110px;
+width: 220px;
+text-align: center;
+}
+
+div#userinfo a {
+color: #000;
+text-decoration: none;
+}
+
+ul#userinfo_minor {
+position: absolute;
+top: 0px;
+right: 4px;
+width: 300px;
+text-align: right;
+}
+
+ul#userinfo_major {
+position: absolute;
+top: 20px;
+left: 3px;
+}
+
+.user-info-bar {
+z-index: 999;
+margin: 0px;
+margin-left: -15px;
+padding: 0 1px 1px 1px;
+width: 100%;
+height: 60px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+background: none;
+background-color: lightcyan;
+color: #000;
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 10px;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+a:hover {
+	color:gray;
+}
+
+span.basic-movie-list__torrent-edition__main, span.basic-movie-list__torrent-edition__sub {
+	color:rgb(116, 105, 233);
+}
+
+
+.table>thead>tr, .table>tbody>tr {
+background-color: #fff;
+}
+
+.table--bordered>thead>tr>th, .table--bordered>tbody>tr>th, .table--bordered>tfoot>tr>th, .table--bordered>thead>tr>td, .table--bordered>tbody>tr>td, .table--bordered>tfoot>tr>td {
+border: none;
+}
+
+.panel__body {
+padding: 0px;
+padding-top: 20px;
+padding-bottom: 10px;
+}
+
+.panel__heading {
+padding: 0px;
+padding-bottom: 4px;
+border-bottom: 1px solid gray;
+background: none;
+}
+
+div#news span {
+color: #000 !important;
+}
+
+.bbcode-size-5 {
+font-size: 1.3em;
+line-height: 1.5em;
+}
+
+span#last5-tab-control {
+	color: transparent;
+}
+
+span#last5-tab-control a {
+	
+}
+
+.tab__link--active:before {
+padding-right: 10px;
+content: '●';
+}
+
+
+
+.bbcode-size-6 {
+font-size: 2em;
+line-height: 1.5em;
+}
+
+.bbcode-size-10 {
+font-size: 3em;
+line-height: 1.2em;
+}
+
+blockquote {
+margin: 10px;
+padding: 10px;
+padding-left: 50px;
+border: none;
+background-color: #fff;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.generic-form, .search-form {
+margin-right: auto;
+margin-bottom: 15px;
+margin-left: auto;
+width: 98%;
+}
+
+.tab__link--active {
+	color:#000;
+}
+
+.search-bar__results {
+	border: none;
+}
+
+.search-bar__results__list-item {
+	background-color: #fff;
+}
+
+.search-bar__results__link, .search-bar__results__link:hover {
+	background-color: rgb(224, 224, 224);
+	color:#000;
+}
+
+.search-bar__results__list-item--is-highlighted>.search-bar__results__link, .search-bar__results__list-item--is-highlighted>.search-bar__results__link:hover {
+	background-color: #fff;
+	color:#000;
+}
+
+.alert--warning {
+background-color: chartreuse;
+color: #404040;
+}
+
+.page__main-content {
+overflow: auto;
+margin: 0 auto;
+padding: 170px 0px 15px 0px;
+width: 1013px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+background-color: #fff;
+}
+
+
+.basic-movie-list__torrent-edition__main:before {
+padding-right: 5px;
+content: '●';
+}
+
+.panel {
+margin-bottom: 2em;
+border: none;
+background-color: inherit;
+}
+
+.search-bar {
+position: absolute;
+top: 106px;
+left: 0px;
+
+z-index: 7;
+margin-top: 0px;
+margin-right: 0;
+margin-left: 0;
+padding: 0px;
+width: 100%;
+height: 65px;
+border-top-left-radius: 0px;
+border-top-right-radius: 0px;
+background: rgb(224, 224, 224);
+text-align: center;
+}
+
+.user-info-bar__drop-down-menu__item, .user-info-bar__drop-down-menu__item:hover {
+display: block;
+float: none;
+background: #fff !important;
+}
+
+.search-bar__list {
+display: inline-block;
+margin: 0 6px;
+padding: 0;
+width: 1013px;
+}
+
+
+.search-bar__search-field__input {
+position: relative;
+top: -1px;
+display: inline;
+margin-top: 18px;
+margin-right: 0px;
+margin-left: 6px;
+padding: 0px;
+padding-top: 7px;
+padding-bottom: 6px;
+width: 13%;
+border: none;
+border-radius: 20px;
+background-color: #fff;
+color: #000;
+text-align: center;
+font-size: 12px;
+}
+
+.site-logo {
+position: relative;
+top: 20px;
+visibility: hidden;
+margin: 0 auto 20px auto;
+width: 700px;
+height: 10px;
+background: url("images/logo.png") top center no-repeat;
+}
+
+.main-menu {
+position: absolute;
+top: 50px;
+left: 0px;
+z-index: 7;
+margin: inherit;
+width: 100%;
+height: 56px;
+border-radius: 0px;
+background-color: lightcyan;
+text-align: center;
+font-size: 10pt;
+opacity: 1;
+}
+
+.main-menu__link {
+padding: .5em;
+color: #000;
+}
+
+.main-menu__list {
+display: inline-block;
+margin: 0 auto;
+padding: 0;
+width: 1013px;
+text-align: left;
+}
+
+li#nav_index a:before {
+padding-right: 6px;
+content: '⧗';
+}
+
+li#nav_torrents a:before {
+	padding-right: 6px;
+	content:'❂';
+}
+
+li#nav_collages a:before{
+	padding-right: 6px;
+	content:'★';
+}
+
+li#nav_requests a:before {
+	padding-right: 6px;
+	content:'✔';
+}
+
+li#nav_forums a:before{
+	padding-right: 6px;
+	content:'☰';
+}
+
+li#nav_irc a:before{
+	padding-right: 6px;
+	content:'♟';	
+}
+
+li#nav_top10 a:before{
+	padding-right: 6px;
+	content:'⬆';	
+}
+
+li#nav_rules a:before {
+	padding-right: 6px;
+	content:'⚑';	
+}
+
+li#nav_wiki a:before {
+	padding-right: 6px;
+	content:'✚';	
+}
+
+li#nav_staff a:before{
+	padding-right: 6px;
+	content:'▲';	
+}
+
+li#nav_index {
+padding-left: 10px;
+}
+
+li#nav_staff {
+padding-right: 0px;
+}
+
+
+
+.main-menu__item {
+display: inline-block;
+margin: 0px;
+margin-top: 13px;
+margin-left: 0px;
+padding: 5px;
+padding-right: 35px;
+padding-left: 0px;
+text-align: left;
+font-size: 12px;
+}
+
+a {
+	color:#000;
+}
+
+body {
+margin: 0 auto;
+max-width: 1013px;
+background-color: #fff;
+color: #747070;
+font-size: 10pt;
+font-family:  arial;
+line-height: 1.5em;
+}
+
+.table--panel-like>thead>tr {
+height: 55px;
+background: none;
+}
+
+a.basic-movie-list__torrent__action__link {
+padding: 5px;
+border-radius: 20px;
+background-color: lightgreen;
+color: #000;
+text-align: center;
+}
+
+span.search-form__footer__buttons input {
+	background-color: lightgreen;
+	color: #000;
+}
+
+span.basic-movie-list__torrent__action a:nth-child(1) {
+padding: 6px;
+border-radius: 20px;
+background-color: lightgreen;
+color: #000;
+text-align: center;
+}
+
+span.basic-movie-list__torrent__action a:nth-child(2) {
+	padding: 5px;
+	border-radius: 27px;
+	background-color: lightgray;
+	color: #000;
+	text-align: center;
+}
+
+span.basic-movie-list__torrent__action a:nth-child(3) {
+	padding: 5px;
+	border-radius: 27px;
+	background-color: lightgray;
+	color: #000;
+	text-align: center;
+}
+
+span.basic-movie-list__torrent__action {
+color: transparent;
+}
+
+.table--bordered>thead>tr>th, .table--bordered>tbody>tr>th, .table--bordered>tfoot>tr>th, .table--bordered>thead>tr>td, .table--bordered>tbody>tr>td, .table--bordered>tfoot>tr>td {
+padding-top: 15px;
+padding-bottom: 15px;
+border: none;
+border-bottom: 1px solid rgb(167, 162, 162);
+}
+
+.table>thead>tr, .table>tbody>tr {
+background-color: #fff !important;
+}
+
+.table--bordered {
+border: solid thin red;
+}
+
+span.basic-movie-list__movie__rating__title:before {
+padding-right: 7px;
+color: gray;
+content: '●';
+}
+
+span.basic-movie-list__movie__title-row {
+font-weight: normal;
+font-size: 20px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+line-height: 30px;
+}
+
+.table>tbody>tr.basic-movie-list__details-row {
+background-color: #fff;
+}
+
+span.basic-movie-list__movie__tags a {
+padding: 3px;
+border-radius: 14px;
+background-color: lightgray;
+color: #000;
+}
+
+.mediainfo>tbody>tr, .mediainfo__section>tbody>tr {
+	background-color: #fff;
+}
+
+.basic-movie-list__movie__tags {
+padding: 2px;
+color:transparent;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-style: normal;
+font-size: 10px;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+line-height: 28px;
+}
+
+.main-menu:before {
+position: absolute;
+top: 18px;
+left: 8px;
+color: #000;
+content: '● PTP';
+}
+
+.search-bar__results__list-item {
+display: block;
+margin: 0;
+padding: 0;
+border-bottom: solid thin #fff;
+background: #fff;
+text-align: left;
+line-height: 20px;
+}
+
+span.basic-movie-list__movie__rating__title a {
+color: gray;
+}
+
+.basic-movie-list__movie__rating-container {
+display: inline;
+margin-right: 5px;
+padding: 0px;
+background-color: #fff;
+color: #000;
+}
+
+
+
+
+
+.basic-movie-list__movie__new {
+color:orange;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-weight: normal;
+font-size: 10px;
+font-size: 10px;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+opacity: 1;
+}
+
+.qtip-ptp {
+max-width: none !important;
+border: none;
+border-width: 0px !important;
+border-style: solid;
+border-color: #fff;
+border-radius: 0px;
+background: lightgray;
+color: #000;
+line-height: normal !important;
+}
+
+.qtip .qtip-tip, .qtip .qtip-tip * {
+position: absolute;
+display: none;
+border: 0 dashed transparent;
+background: transparent;
+color: lightgray;
+}
+
+.movie-tooltip__title {
+	color:#000;
+}
+
+.movie-tooltip__rating-container {
+	margin-left: -3px;
+	padding: 5px;
+	border-radius:20px;
+	background-color: #fff;
+	color:#000;
+}
+
+.movie-tooltip__tag, .movie-tooltip__rating__title>a, .movie-tooltip__tag, .movie-tooltip__rating__title>a:hover, .movie-tooltip__tags a, .movie-tooltip__tags a:hover {
+	color:#000;
+}
+
+.basic-movie-list__movie__cover {
+padding-right: 10px;
+width: 117px;
+}
+
+.page__title {
+color: #000;
+text-align: center;
+font-size: 30px;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+line-height: 45px;
+}
+
+div.linkbox a {
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 10px;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.huge-movie-list__movie {
+border: none;
+background-color: #fff;
+}
+
+.generic-form--narrow, .search-form--narrow {
+width: 100%;
+}
+
+.toggleable-search-form__toggler-container {
+text-align: left;
+}
+
+.panel__heading__toggler {
+float: right;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-size: 10px;
+font-family: monaco;
+}
+
+.search-form__advanced-basic-toggler {
+padding-bottom: 8px;
+text-align: left;
+}
+
+.form--horizontal .form__label {
+float: left;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"] {
+border: 0px;
+border-radius: 10px;
+background-color: rgb(215, 212, 245);
+cursor: pointer;
+-webkit-appearance: button;
+}
+
+.grid__item {
+float: left;
+padding-left: 1em;
+}
+
+.grid-u-7-10 {
+width: 70%;
+}
+
+.grid-u-3-10 {
+width: 25.6%;
+}
+
+.list--inline-full-width {
+display: table;
+margin-top: 10px;
+width: 100%;
+text-align: center;
+}
+
+.form__input, .form__checkbox-label, .form__radio-label {
+margin-right: 0.5em;
+margin-bottom: 0.5em;
+border: 0px;
+background-color: rgb(215, 212, 245);
+}
+
+a.form__input {
+border-bottom: none;
+background-color: #fff;
+}
+
+label.form__radio-label {
+border-bottom: none;
+background-color: #fff;
+}
+
+.form__input, .form__checkbox-label, .form__radio-label {
+margin-right: 0.5em;
+margin-bottom: 0.5em;
+border: 0px;
+border-bottom: 1px solid gray;
+background-color: #fff;
+color: #000;
+}
+
+select.form__input, select {
+border-bottom: none;
+background-color: rgb(215, 212, 245);
+color: #000;
+border: none;
+}
+
+.grid {
+margin-left: -1em;
+line-height: 27px;
+}
+
+input.form__input {
+background-color: #fff !important;
+}
+
+.table--striped>tbody>tr:nth-child(odd)>td, .table--striped>tbody>tr:nth-child(odd)>th {
+background-color: #fff;
+}
+
+div.tags {
+padding-top: 3px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-style: normal;
+font-size: 10px;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.table>thead>tr, .table>tbody>tr {
+background-color: #fff;
+}
+
+.heading--small-bottom-margin {
+margin-bottom: 0.25em;
+text-align: center;
+font-size: 20px;
+}
+
+.cover-movie-list__movie__undercover {
+padding: 3px;
+padding-top: 20px;
+border-radius: 0px;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+background-image: none;
+}
+
+span.cover-movie-list__movie__tags {
+padding-top: 3px;
+text-transform: uppercase;
+letter-spacing: 1px;
+font-style: normal;
+font-size: 10px;
+font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.cover-movie-list__movie__rating {
+margin-right: 4px;
+padding: 1px 4px;
+border-radius: 10px;
+background-color: lightgreen;
+color: #000;
+}
+
+.cover-movie-list__movie__rating-and-tags {
+overflow: hidden;
+margin-top: 10px;
+padding-top: 10px;
+border-top: 1px solid gray;
+text-overflow: ellipsis;
+white-space: nowrap;
+}
+
+.cover-movie-list__movie__title {
+	color: #000;
+}
+
+div.cover-movie-list__movie__title-row {
+display: inline-block;
+overflow: hidden;
+height: 44px;
+}
+
+.cover-movie-list__movie {
+float: left;
+margin: 20px 0 10px 20px;
+width: 185px;
+text-align: left;
+}
+
+div#last5 .text--center {
+text-align: left;
+}
+
+.movie-page__torrent__panel {
+margin: 0px;
+padding: 0px;
+border: none;
+background-color: #fff;
+}
+
+.mediainfo--in-release-description>tbody>tr, .mediainfo--in-release-description .mediainfo__section>tbody>tr {
+background-color: #fff;
+}
+
+div#news {
+padding-top: 79px;
+}
+
+.movie-page__actor-column {
+width: 180px;
+text-align: left;
+}
+
+.forum-post__heading {
+	padding: 4px;
+	background: none;
+}
+
+.forum-post {
+display: table;
+margin-bottom: 10px;
+width: 100%;
+border: 1px solid #555;
+background-color: #fff;
+}
+
+.forum-post__textarea {
+width: 100%;
+background-color: #fff;
+color: #000;
+resize: vertical;
+}
+
+div.forum-post__buttons {
+margin-top: 13px;
+}
+
+div.box_albumart.panel {
+padding-top: 29px;
+}
